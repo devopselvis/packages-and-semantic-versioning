@@ -6,6 +6,8 @@
     <Version>0.2.0</Version>
     <Authors>Mickey Gousset</Authors>
     <Company>Mickey Gousset</Company>
+    <RepositoryUrl>https://github.com/devopselvis/mickeys-awesome-package</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>
