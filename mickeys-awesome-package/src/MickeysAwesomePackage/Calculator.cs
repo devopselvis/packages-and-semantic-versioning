@@ -1,3 +1,5 @@
+using System;
+
 namespace MickeysAwesomePackage
 {
   public class Calculator
@@ -7,10 +9,13 @@ namespace MickeysAwesomePackage
       return a + b;
     }
 
-    //Create a new method called Divide that will divide two numbers
     public static int Divide(int a, int b)
     {
-      return a / b;
+        if (b == 0)
+        {
+            throw new DivideByZeroException("Division by zero is not allowed.");
+        }
+        return a / b;
     }
   }
 }
