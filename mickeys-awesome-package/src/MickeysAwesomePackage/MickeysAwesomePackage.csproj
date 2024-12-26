@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <PackageId>mickeys-awesome-package</PackageId>
-    <Version>0.2.0</Version>
+    <Version>0.2.1</Version>
     <Authors>Mickey Gousset</Authors>
     <Company>Mickey Gousset</Company>
     <RepositoryUrl>https://github.com/devopselvis/mickeys-awesome-package</RepositoryUrl>
